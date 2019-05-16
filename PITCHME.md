@@ -13,6 +13,77 @@
 
 ### https://gep13.me/ChocoChefCode
 
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[What is Chocolatey?]
+
+@snap[west h4-white]
+#### Question
+@snapend
+
+@snap[east span-80]
+#### What is
+## @css[text-gold text-bold](Chocolatey )@fa[question]
+@snapend
+
+---?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+@title[Immutable Infrastructure]
+
+@snap[west h4-white]
+#### Answer
+@snapend
+
+@snap[east span-70]
+@quote[Chocolatey is a global PowerShell execution engine using the NuGet packaging infrastructure. Think of it as the ultimate automation tool for Windows.](Chocolatey Website)"
+@snapend
+
++++
+
+@title[It's Magic!]
+
+![It's Magic](assets/img/magic.gif)
+
+---
+
+@title[Windows Software Ecosystem]
+
+## Windows Software Ecosystem
+
++++
+
+@title[Traditional Windows]
+
+### Traditionally Windows was designed with Visual Interfaces in mind
+
++++
+
+@title[Still evident]
+
+### There is no place more evident of that still than in the Windows Software Installer ecosystem
+
++++
+
+@title[Windows Software Installers]
+
+![Windows Software Installers](assets/img/picard-meme.png)
+
++++
+
+@title[No Consistency]
+
+### No Consistency
+
+- Over 20 installer formats and thousands of installers in the wild
+- Zips and other archive formats
+- Software installers are messy
+- It's like the wild west
+
++++
+
+@title[Wild West]
+
+![Wild West](assets/img/clint_eastwood.png)
+
+
 ---?color=#7FDBFF
 @title[Who Am I? - Gary Ewan Park]
 
