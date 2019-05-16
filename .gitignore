@@ -1,2 +1,4 @@
 .vagrant
 .DS_Store
+*Zone.Identifier:$DATA
+chefserver_local.crt
