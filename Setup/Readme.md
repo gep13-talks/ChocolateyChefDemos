@@ -11,6 +11,7 @@
 * Click on Starter Kit in left hand menu
 * Click Download Starter Kit
 * Click Proceed
+* Unblock zip file
 * Extract zip file in Downloads folder
 * Copy contents of `chef-repo/.chef` to `c:/chef/.chef`
 * Open Chef Development Kit
