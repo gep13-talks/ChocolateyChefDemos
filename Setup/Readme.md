@@ -28,9 +28,17 @@
 * Navigate into `cookbooks/chocolatey-server`
   * Run `berks install`
   * Run `berks upload`
+* Navigate into `cookbooks/install-git`
+  * Run `berks install`
+  * Run `berks upload`
+* Navigate into `cookbooks/uninstall-git`
+  * Run `berks install`
+  * Run `berks upload`
 * Navigate into `roles`
-  * Run `knife role from file .\chocoatey-server.rb`
+  * Run `knife role from file .\chocolatey-server.rb`
   * Run `knife role from file .\all-nodes.rb`
+  * Run `knife role from file .\install-git.rb`
+  * Run `knife role from file .\uninstall-git.rb`
 
 ## chefserver
 
