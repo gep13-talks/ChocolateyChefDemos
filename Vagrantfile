@@ -45,6 +45,7 @@ Vagrant.configure("2") do |config|
     chefworkstation.vm.provision :shell, :path => "shell/Generate-HostsFile.ps1", privileged: false
     chefworkstation.vm.provision :shell, :path => "shell/InstallChocolatey.ps1", privileged: false
     chefworkstation.vm.provision :shell, :path => "shell/InstallRequiredApplications.ps1", privileged: false
+    chefworkstation.vm.provision :shell, :path => "shell/ConfigureGit.ps1", privileged: false
     chefworkstation.vm.provision :shell, :path => "shell/NotifyGuiAppsOfEnvironmentChanges.ps1", privileged: false
   end
 
