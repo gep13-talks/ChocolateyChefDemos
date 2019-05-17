@@ -9,6 +9,14 @@ $Hosts = @(
   [PSCustomObject]@{
     IPAddress = '10.10.17.12'
     HostName  = 'chefserver.local'
+  },
+  [PSCustomObject]@{
+    IPAddress = '10.10.17.11'
+    HostName  = 'chocoserver'
+  },
+  [PSCustomObject]@{
+    IPAddress = '10.10.17.10'
+    HostName  = 'chefworkstation'
   }
 )
 
