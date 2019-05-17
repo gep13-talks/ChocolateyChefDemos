@@ -31,7 +31,7 @@ footnote : "@gep13"
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : moon
+highlight : vs
 
 #
 # Layout Setting

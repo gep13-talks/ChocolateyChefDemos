@@ -2,7 +2,7 @@
 
 ## Simplify Windows Software Packaging and Automation with Chocolatey
 
----
+---?color=#7FDBFF
 @title[Slides and Code]
 
 ## Slides
@@ -17,19 +17,25 @@
 @title[What is Chocolatey?]
 
 @snap[west h4-white]
+
 #### Question
+
 @snapend
 
 @snap[east span-80]
+
 #### What is
 ## @css[text-gold text-bold](Chocolatey )@fa[question]
+
 @snapend
 
----?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
++++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
 @title[Immutable Infrastructure]
 
 @snap[west h4-white]
+
 #### Answer
+
 @snapend
 
 @snap[east span-70]
@@ -42,11 +48,34 @@
 
 ![It's Magic](assets/img/magic.gif)
 
----
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[What problem is Chocolatey trying to solve?]
 
+@snap[west h4-white]
+
+#### Question
+
+@snapend
+
+@snap[east span-80]
+
+#### What problem is Chocolatey
+## @css[text-gold text-bold](trying to solve )@fa[question]
+
+@snapend
+
++++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
 @title[Windows Software Ecosystem]
 
-## Windows Software Ecosystem
+@snap[west h4-white]
+
+#### Answer
+
+@snapend
+
+@snap[east span-70]
+Windows Software Ecosystem
+@snapend
 
 +++
 
@@ -83,6 +112,136 @@
 
 ![Wild West](assets/img/clint_eastwood.png)
 
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[What does Chocolatey integrate with?]
+
+@snap[west h4-white]
+
+#### Question
+
+@snapend
+
+@snap[east span-80]
+
+#### What does Chocolatey
+## @css[text-gold text-bold](integrate with )@fa[question]
+
+@snapend
+
++++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+@title[Chocolatey Integrations]
+
+@snap[west h4-white]
+
+#### Answer
+
+@snapend
+
+@snap[east span-70]
+Everything
+@emoji[heart_eyes]
+@snapend
+
++++
+
+@title[Sane Software Management]
+
+![Sane Software Management](assets/img/integrations.jpg)
+
+The @css[text-gold text-bold](Sane) Way to Manage Software on Windows
+
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[How does Chef integrate with Chocolatey?]
+
+@snap[west h4-white]
+#### Question
+@snapend
+
+@snap[east span-80]
+
+#### How does Chef integrate
+## @css[text-gold text-bold](with Chocolatey )@fa[question]
+
+@snapend
+
++++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+@title[Cookbooks and Resources]
+
+@snap[west h4-white]
+
+#### Answer
+
+@snapend
+
+@snap[east span-70]
+Cookbooks and Resources
+@snapend
+
++++
+
+@title[Chocolatey Cookbook]
+
+### Chocolatey Cookbook
+
+![Chocolatey Cookbook](assets/img/chocolatey_cookbook.png)
+
++++?code=assets/files/chocolatey_package.rb&title=Resource: chocolatey_package
+@title[chocolatey_package.rb]
+
+##### Available in Chef Client 12.7+
+
++++?code=assets/files/chocolatey_source.rb&title=Resource: chocolatey_source
+@title[chocolatey_source.rb]
+
+##### Available in Chef Client 14.3+
+
++++?code=assets/files/chocolatey_config.rb&title=Resource: chocolatey_config
+@title[chocolatey_config.rb]
+
+##### Available in Chef Client 14.3+
+
+---?code=chef/cookbooks/install-git/recipes/default.rb&title=chocolatey_package installing git
+@title[default.rb]
+
+@[7](Include default recipe from chocolatey cookbook)
+@[9-11](Use chocolatey_package)
+
++++?color=beige
+@title[Demo - chocolatey_package]
+
+## Demo
+
+### Use chocolatey_package to install git
+
+---?code=chef/cookbooks/uninstall-git/recipes/default.rb&title=chocolatey_package uninstalling git
+@title[default.rb]
+
+@[7](Include default recipe from chocolatey cookbook)
+@[9-11](Use chocolatey_package)
+
++++?color=beige
+@title[Demo - chocolatey_package]
+
+## Demo
+
+### Use chocolatey_package to uninstall git
+
+---?code=chef/cookbooks/chocolatey-server/recipes/default.rb&title=Install and configure chocolatey.server
+@title[default.rb]
+
+@[19](Include default recipe from chocolatey cookbook)
+@[36-39](Create new directory)
+@[41-43](Install chocolatey.server package)
+@[49-52](Set Chocolatey Configuration)
+@[68-73](Install Windows Features)
+@[151-158](Configure Chocolatey Sources)
+
++++o?color=beige
+@title[Demo - Install and configure chocolatey.server]
+
+## Demo
+
+### Install and configure chocolatey.server
 
 ---?color=#7FDBFF
 @title[Who Am I? - Gary Ewan Park]
@@ -115,7 +274,7 @@ Gary Ewan Park
 @fa[envelope choco-blue]&nbsp;&nbsp;gary@chocolatey.io
 @snapend
 
----
++++
 
 @title[Questions]
 
