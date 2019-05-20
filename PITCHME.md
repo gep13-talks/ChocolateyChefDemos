@@ -48,7 +48,7 @@ Chocolatey is a package manager for Windows
 
 +++
 
-Similar to apt-get, yum, homebrew
+Similar to apt-get, yum, and Homebrew
 
 +++
 
