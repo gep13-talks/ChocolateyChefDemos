@@ -81,13 +81,13 @@ Windows Software Ecosystem
 
 @title[Traditional Windows]
 
-### Traditionally Windows was designed with Visual Interfaces in mind
+### Traditionally Windows was designed with visual interfaces in mind
 
 +++
 
 @title[Still evident]
 
-### There is no place more evident of that still than in the Windows Software Installer ecosystem
+### There is no place more evident of that still than in the Windows software installer ecosystem
 
 +++
 
