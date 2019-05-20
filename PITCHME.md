@@ -39,8 +39,27 @@
 @snapend
 
 @snap[east span-70]
-@quote[Chocolatey is a global PowerShell execution engine using the NuGet packaging infrastructure. Think of it as the ultimate automation tool for Windows.](Chocolatey Website)"
+@quote[Chocolatey allows you to deploy any Windows software, anywhere, with anything, and manage and track that software over time.](Rob Reynolds Slideshare Presentation)"
 @snapend
+
++++
+
+Chocolatey is a package manager for Windows
+
++++
+
+Similar to apt-get, yum, homebrew
+
++++
+
+### With Chocolatey you can...
+
+* Manage ANY software, not just installers
+* Define dependencies
+* Write a software deployment one time (with PowerShell)
+* Test your deployment before deploying to Production
+* Deploy to any supported version of Windows (including Server.Core and Docker Containers)
+* Track and Report on software
 
 +++
 
@@ -112,6 +131,21 @@ Windows Software Ecosystem
 
 ![Wild West](assets/img/clint_eastwood.png)
 
+---
+@title[Organisational Use]
+
+### Organisational Use
+
+![Organisational Use](assets/img/organisational_use.png)
+
++++
+@title[Chocolatey Central Management]
+
+### Chocolatey Central Management
+
+![Chocolatey Central Management](assets/img/ccm.jpg)
+
+
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What does Chocolatey integrate with?]
 
@@ -154,7 +188,9 @@ The @css[text-gold text-bold](Sane) Way to Manage Software on Windows
 @title[How does Chef integrate with Chocolatey?]
 
 @snap[west h4-white]
+
 #### Question
+
 @snapend
 
 @snap[east span-80]
@@ -203,8 +239,20 @@ Cookbooks and Resources
 ---?code=chef/cookbooks/install-git/recipes/default.rb&title=chocolatey_package installing git
 @title[default.rb]
 
-@[7](Include default recipe from chocolatey cookbook)
-@[9-11](Use chocolatey_package)
+@[1](Include default recipe from chocolatey cookbook)
+@[3-6](Use chocolatey_package)
+
++++
+
+DON'T DO THIS! @emoji[smile]
+
++++
+
+### Attributes
+
+![Use attributes for installation URL](assets/img/cookbook_attributes.png)
+
+This will avoid rate limiting when using Chocolatey Community Repository
 
 +++?color=beige
 @title[Demo - chocolatey_package]
@@ -216,8 +264,8 @@ Cookbooks and Resources
 ---?code=chef/cookbooks/uninstall-git/recipes/default.rb&title=chocolatey_package uninstalling git
 @title[default.rb]
 
-@[7](Include default recipe from chocolatey cookbook)
-@[9-11](Use chocolatey_package)
+@[1](Include default recipe from chocolatey cookbook)
+@[3-5](Use chocolatey_package)
 
 +++?color=beige
 @title[Demo - chocolatey_package]
@@ -242,6 +290,14 @@ Cookbooks and Resources
 ## Demo
 
 ### Install and configure chocolatey.server
+
++++
+
+### Other repository servers are available
+
+* Artifactory
+* Sonatype Nexus
+* ProGet
 
 ---?color=#7FDBFF
 @title[Who Am I? - Gary Ewan Park]
