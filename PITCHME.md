@@ -131,12 +131,87 @@ Windows Software Ecosystem
 
 ![Wild West](assets/img/clint_eastwood.png)
 
----
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[How does it work?]
+
+@snap[west h4-white]
+
+#### Question
+
+@snapend
+
+@snap[east span-80]
+
+#### How does it
+## @css[text-gold text-bold](work )@fa[question]
+
+@snapend
+
++++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+@title[A series of simple commands]
+
+@snap[west h4-white]
+
+#### Answer
+
+@snapend
+
+@snap[east span-70]
+A series of simple commands
+@snapend
+
++++
+
+```powershell
+choco install paint.net
+```
+
+```powershell
+choco upgrade paint.net
+```
+
+```powershell
+choco uninstall paint.net
+```
+
+```powershell
+choco upgrade all
+```
+
++++
+@title[What is the catch?]
+
+### What is the catch?
+
++++
 @title[Organisational Use]
 
 ### Organisational Use
 
 ![Organisational Use](assets/img/organisational_use.png)
+
+---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+@title[What do I get when I pay for Chocolatey?]
+
+@snap[west h4-white]
+
+#### Question
+
+@snapend
+
+@snap[east span-80]
+
+#### What do I get when I pay for
+## @css[text-gold text-bold](Chocolatey )@fa[question]
+
+@snapend
+
++++
+@title[Commercial Capabilities]
+
+### Commercial Capabilities
+
+![Commercial Capabilities](assets/img/commercial_capabilities.png)
 
 +++
 @title[Chocolatey Central Management]
@@ -144,7 +219,6 @@ Windows Software Ecosystem
 ### Chocolatey Central Management
 
 ![Chocolatey Central Management](assets/img/ccm.jpg)
-
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What does Chocolatey integrate with?]
@@ -346,10 +420,11 @@ Web: https://www.gep13.co.uk
 
 ---
 
-@title[Resources]
+@title[Learn More]
 
-## Resources
+## Learn More
 
-- Chocolatey Documentation - [https://chocolatey.org/docs](https://chocolatey.org/docs)
-- Source Code - [https://github.com/chocolatey/choco](https://github.com/chocolatey/choco)
-- Learning Resources - [https://chocolatey.org/docs/resources](https://chocolatey.org/docs/resources)
+* Sales - [https://chocolatey.org/contact](https://chocolatey.org/contact) (choose Sales)
+* Chocolatey Documentation - [https://chocolatey.org/docs](https://chocolatey.org/docs)
+* Source Code - [https://github.com/chocolatey/choco](https://github.com/chocolatey/choco)
+* Learning Resources - [https://chocolatey.org/docs/resources](https://chocolatey.org/docs/resources)
