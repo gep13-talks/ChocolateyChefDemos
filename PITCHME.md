@@ -39,7 +39,7 @@
 @snapend
 
 @snap[east span-70]
-@quote[Chocolatey allows you to deploy any Windows software, anywhere, with anything, and manage and track that software over time.](Rob Reynolds Slideshare Presentation)"
+@quote[Chocolatey allows you to deploy any Windows software, anywhere, with anything, and manage and track that software over time.](Rob Reynolds - Creator of Chocolatey)"
 @snapend
 
 +++
@@ -196,6 +196,11 @@ choco upgrade all
 ### Organisational Use
 
 ![Organisational Use](assets/img/organisational_use.png)
+
++++
+@title[Chocolatey Architecture Diagram]
+
+![Chocolatey Architecture Diagram](assets/img/chocolatey_architecture_diagram.png)
 
 ---?image=assets/img/bg/black.jpg&position=left&size=35% 100%
 @title[What do I get when I pay for Chocolatey?]
