@@ -179,6 +179,13 @@ choco upgrade all
 ```
 
 +++
+@title[Community Repository]
+
+### Community Repository
+
+![Community Repository](assets/img/community_repo.png)
+
++++
 @title[What is the catch?]
 
 ### What is the catch?
