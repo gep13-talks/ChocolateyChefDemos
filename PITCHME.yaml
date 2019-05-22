@@ -58,3 +58,5 @@ thumbnail :
 logo : assets/img/choco-logo.png
 
 gatoken : UA-20926037-2
+
+remote-control : true
