@@ -2,7 +2,7 @@
 
 This repository contains little in the way of Source Code, but it does contains a number of demos and slides, which aim to show how you can use Chocolatey and Chef together for managing your infrastructure.
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13-talks/ChocolateyChefDemos/master)
+This latest version of the slides can always be found using the following link: [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13-talks/ChocolateyChefDemos/master) and the master branch contains the latest version of the demos and source code.
 
 | Date                     | Conference/User Group                                                                                           | Code                                                                                        | Slides                                                                                                                    |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
