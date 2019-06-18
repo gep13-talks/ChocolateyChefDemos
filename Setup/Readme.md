@@ -5,6 +5,7 @@
 ## chefworkstation
 
 * Open code at least once, so IE opens to home page, and so it won't happen again
+* Switch to light theme
 * Open browser to https://chefserver.local
 * Click on Administration Tab
 * Click on chocolatey Organisation
