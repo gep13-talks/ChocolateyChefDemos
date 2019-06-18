@@ -147,6 +147,101 @@ Windows Software Ecosystem
 
 @snapend
 
++++
+
+@title[Let's install paint.net]
+
+## Let's install paint.net...
+
++++
+
+@title[paint.net website]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-1.png)
+
++++
+
+@title[Not the paint.net website]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-2.png)
+
++++
+
+@title[Google paint.net]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-3.png)
+
++++
+
+@title[Actual paint.net website]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-4.png)
+
++++
+
+@title[paint.net download]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-5.png)
+
++++
+
+@title[Mirror website]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-6.png)
+
++++
+
+@title[Actual paint.net download]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-7.png)
+
++++
+
+@title[Unblock zip file]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-8.png)
+
++++
+
+@title[Extract zip file]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-9.png)
+
++++
+
+@title[Install paint.net]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-10.png)
+
++++
+
+@title[paint.net dependencies]
+
+<!-- .slide: data-transition="none" -->
+![Build Step](assets/img/install-paint.net-step-11.png)
+
++++
+
+@title[There has to be a better way!]
+
+## "There has to be a better way!"
+
++++
+
+@title[Chocolatey]
+
+![Chocolatey](assets/img/icon.png)
+
 +++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
 @title[A series of simple commands]
 
