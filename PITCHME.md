@@ -322,6 +322,12 @@ Cookbooks and Resources
 
 ##### Available in Chef Client 14.3+
 
++++?code=assets/files/chocolatey_feature.rb&title=Resource: chocolatey_feature
+@title[chocolatey_feature.rb]
+
+##### Available in Chef Client 15.1+
+
+
 ---?code=chef/cookbooks/install-git/recipes/default.rb&title=chocolatey_package installing git
 @title[default.rb]
 
