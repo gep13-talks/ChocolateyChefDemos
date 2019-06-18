@@ -40,6 +40,10 @@
   * Run `knife role from file .\all-nodes.rb`
   * Run `knife role from file .\install-git.rb`
   * Run `knife role from file .\uninstall-git.rb`
+* Create `license` folder in `C:\programdata\chocolatey`
+* Copy business license to this folder
+* Install `chocolatey.extension`
+* Test license works correctly
 
 ## chefserver
 
