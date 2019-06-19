@@ -44,6 +44,10 @@
 * Copy business license to this folder
 * Install `chocolatey.extension`
 * Test license works correctly
+* Create a new folder c:/temp
+* Download the latest 1Password exe and put it in this folder
+* Run Package Builder with GUI at least once to setup templates
+* Change the font in PowerShell session to be 28
 
 ## chefserver
 
@@ -60,6 +64,7 @@ No additional steps are required on this server
 * Run `chef-client.bat`
 * Make sure everything works as expected
 * Check run history, to make sure that it is all good
+* Change the font in PowerShell session to be 28
 
 ## Additional things that could be good to check/know
 
