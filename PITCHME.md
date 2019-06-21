@@ -1,41 +1,48 @@
 @title[Simplify Windows Software Packaging and Automation with Chocolatey]
 
-## Simplify Windows Software Packaging and Automation with Chocolatey
+@snap[midpoint h3-blue span-100]
+# Chocolatey
+### Simplifying Windows Software Packaging and Automation
+@snapend
 
----?color=#7FDBFF
+---
+
 @title[Slides and Code]
 
 ## Slides
 
-### https://gep13.me/ChocoChefSlides
+#### https://gep13.me/ChocoChefSlides
+
+@fa[plus-square fa-2x fa-pad-icon text-gold]
 
 ## Code
 
-### https://gep13.me/ChocoChefCode
+#### https://gep13.me/ChocoChefCode
 
----?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, black 25%, white 25%)
+
 @title[What is Chocolatey?]
 
-@snap[west h4-white]
-
-#### Question
-
+@snap[west h1-white]
+# Q
 @snapend
 
-@snap[east span-80]
+@snap[east span-65]
 
 #### What is
 ## @css[text-gold text-bold](Chocolatey )@fa[question]
 
 @snapend
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, #5289F7 25%, white 25%)
 @title[Immutable Infrastructure]
 
-@snap[west h4-white]
+@snap[north-east text-05 text-gray]
+Q. What is Chocolately?
+@snapend
 
-#### Answer
-
+@snap[west h1-white]
+# A
 @snapend
 
 @snap[east span-70]
@@ -44,11 +51,11 @@
 
 +++
 
-Chocolatey is a package manager for Windows
+#### Chocolatey is a package manager for Windows
 
 +++
 
-Similar to apt-get, yum, and Homebrew
+#### Similar to apt-get, yum, and Homebrew
 
 +++
 
@@ -61,39 +68,39 @@ Similar to apt-get, yum, and Homebrew
 * Deploy to any supported version of Windows (including Server.Core and Docker Containers)
 * Track and Report on software
 
-+++
++++?image=assets/img/magic.gif&size=45% auto&color=#A74433
 
 @title[It's Magic!]
 
-![It's Magic](assets/img/magic.gif)
-
----?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, black 25%, white 25%)
 @title[What problem is Chocolatey trying to solve?]
 
-@snap[west h4-white]
-
-#### Question
-
+@snap[west h1-white]
+# Q
 @snapend
 
-@snap[east span-80]
+@snap[east span-80 text-right]
 
 #### What problem is Chocolatey
 ## @css[text-gold text-bold](trying to solve )@fa[question]
 
 @snapend
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, #5289F7 25%, white 25%)
 @title[Windows Software Ecosystem]
 
-@snap[west h4-white]
+@snap[north-east text-05 text-gray]
+Q. What problem is Chocolately trying to solve?
+@snapend
 
-#### Answer
+@snap[west h1-white]
+
+# A
 
 @snapend
 
 @snap[east span-70]
-Windows Software Ecosystem
+## Windows Software Ecosystem
 @snapend
 
 +++
@@ -108,7 +115,7 @@ Windows Software Ecosystem
 
 ### There is no place more evident of that still than in the Windows software installer ecosystem
 
-+++
++++?color=#8B1E26
 
 @title[Windows Software Installers]
 
@@ -125,25 +132,25 @@ Windows Software Ecosystem
 - Software installers are messy
 - It's like the wild west
 
-+++
++++?color=#261F1D
 
 @title[Wild West]
 
 ![Wild West](assets/img/clint_eastwood.png)
 
----?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, black 25%, white 25%)
 @title[How does it work?]
 
-@snap[west h4-white]
+@snap[west h1-white]
 
-#### Question
+# Q
 
 @snapend
 
 @snap[east span-80]
 
-#### How does it
-## @css[text-gold text-bold](work )@fa[question]
+#### How does Chocolatey
+# @css[text-gold text-bold](work )@fa[question]
 
 @snapend
 
@@ -234,7 +241,7 @@ Windows Software Ecosystem
 
 @title[There has to be a better way!]
 
-## "There has to be a better way!"
+## @fa[quote-left] There has to be a better way!
 
 +++
 
@@ -242,36 +249,26 @@ Windows Software Ecosystem
 
 ![Chocolatey](assets/img/icon.png)
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, #5289F7 25%, white 25%)
 @title[A series of simple commands]
 
-@snap[west h4-white]
+@snap[north-east text-05 text-gray]
+Q. How does Chocolately work?
+@snapend
 
-#### Answer
+@snap[west h1-white]
+
+# A
 
 @snapend
 
 @snap[east span-70]
-A series of simple commands
+## A series of simple commands
 @snapend
 
 +++
 
-```powershell
-choco install paint.net
-```
-
-```powershell
-choco upgrade paint.net
-```
-
-```powershell
-choco uninstall paint.net
-```
-
-```powershell
-choco upgrade all
-```
+@code[powershell zoom-25](assets/files/cmds.ps1)
 
 +++
 @title[Community Repository]
@@ -297,12 +294,12 @@ choco upgrade all
 
 ![Chocolatey Architecture Diagram](assets/img/chocolatey_architecture_diagram.png)
 
----?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, black 25%, white 25%)
 @title[What do I get when I pay for Chocolatey?]
 
-@snap[west h4-white]
+@snap[west h1-white]
 
-#### Question
+# Q
 
 @snapend
 
@@ -327,12 +324,12 @@ choco upgrade all
 
 ![Chocolatey Central Management](assets/img/ccm.jpg)
 
----?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, black 25%, white 25%)
 @title[What does Chocolatey integrate with?]
 
-@snap[west h4-white]
+@snap[west h1-white]
 
-#### Question
+# Q
 
 @snapend
 
@@ -343,18 +340,21 @@ choco upgrade all
 
 @snapend
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, #5289F7 25%, white 25%)
 @title[Chocolatey Integrations]
 
-@snap[west h4-white]
+@snap[north-east text-05 text-gray]
+Q. What does Chocolately integrate with?
+@snapend
 
-#### Answer
+@snap[west h1-white]
+
+# A
 
 @snapend
 
 @snap[east span-70]
-Everything
-@emoji[heart_eyes]
+## Everything @fa[heart text-blue]
 @snapend
 
 +++
@@ -365,33 +365,37 @@ Everything
 
 The @css[text-gold text-bold](Sane) Way to Manage Software on Windows
 
----?image=assets/img/bg/black.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, black 25%, white 25%)
 @title[How does Chef integrate with Chocolatey?]
 
-@snap[west h4-white]
+@snap[west h1-white]
 
-#### Question
+# Q
 
 @snapend
 
 @snap[east span-80]
 
-#### How does Chef integrate
-## @css[text-gold text-bold](with Chocolatey )@fa[question]
+#### How does Chef integrate with
+## @css[text-gold text-bold](Chocolatey )@fa[question]
 
 @snapend
 
-+++?image=assets/img/bg/blue.jpg&position=left&size=35% 100%
+---?color=linear-gradient(90deg, #5289F7 25%, white 25%)
 @title[Cookbooks and Resources]
 
-@snap[west h4-white]
+@snap[north-east text-05 text-gray]
+Q. How does Chef integrate with Chocolately?
+@snapend
 
-#### Answer
+@snap[west h1-white]
+
+# A
 
 @snapend
 
 @snap[east span-70]
-Cookbooks and Resources
+## Cookbooks and Resources
 @snapend
 
 +++
@@ -402,95 +406,146 @@ Cookbooks and Resources
 
 ![Chocolatey Cookbook](assets/img/chocolatey_cookbook.png)
 
-+++?code=assets/files/chocolatey_package.rb&title=Resource: chocolatey_package
++++
 @title[chocolatey_package.rb]
 
-##### Available in Chef Client 12.7+
+@snap[north span-100]
+#### Resource: chocolatey_package
+@snapend
 
-+++?code=assets/files/chocolatey_source.rb&title=Resource: chocolatey_source
+@code[ruby](assets/files/chocolatey_package.rb)
+
+@snap[south span-100]
+#### Available in Chef Client 12.7+
+@snapend
+
++++
 @title[chocolatey_source.rb]
 
-##### Available in Chef Client 14.3+
+@snap[north span-100]
+#### Resource: chocolatey_source
+@snapend
 
-+++?code=assets/files/chocolatey_config.rb&title=Resource: chocolatey_config
+@code[ruby zoom-11](assets/files/chocolatey_source.rb)
+
+@snap[south span-100]
+##### Available in Chef Client 14.3+
+@snapend
+
++++
 @title[chocolatey_config.rb]
 
-##### Available in Chef Client 14.3+
+@snap[north span-100]
+#### Resource: chocolatey_config
+@snapend
 
-+++?code=assets/files/chocolatey_feature.rb&title=Resource: chocolatey_feature
+@code[ruby zoom-11](assets/files/chocolatey_config.rb)
+
+@snap[south span-100]
+#### Available in Chef Client 14.3+
+@snapend
+
++++
 @title[chocolatey_feature.rb]
 
-##### Available in Chef Client 15.1+
+@snap[north span-100]
+#### Resource: chocolatey_feature
+@snapend
 
+@code[ruby](assets/files/chocolatey_feature.rb)
 
----?code=chef/cookbooks/install-git/recipes/default.rb&title=chocolatey_package installing git
+@snap[south span-100]
+#### Available in Chef Client 15.1+
+@snapend
+
+---
 @title[default.rb]
+@snap[north span-100]
+chocolatey_package installing git
+@snapend
 
+@code[ruby, zoom-19](chef/cookbooks/install-git/recipes/default.rb)
+
+@snap[south span-100]
 @[1](Include default recipe from chocolatey cookbook)
 @[3-6](Use chocolatey_package)
+@snapend
 
 +++
 
-DON'T DO THIS! @emoji[smile]
+## DON'T DO THIS! @emoji[smile]
 
 +++
 
+@snap[north span-100]
 ### Attributes
+@snapend
 
 ![Use attributes for installation URL](assets/img/cookbook_attributes.png)
 
+@snap[south span-100 text-07]
 This will avoid rate limiting when using Chocolatey Community Repository
+@snapend
 
 +++?color=beige
 @title[Demo - chocolatey_package]
 
-## Demo
+# Demo
 
-### Use chocolatey_package to install git
+#### Use chocolatey_package to install git
 
----?code=chef/cookbooks/uninstall-git/recipes/default.rb&title=chocolatey_package uninstalling git
+---
 @title[default.rb]
+@snap[north span-100]
+chocolatey_package uninstalling git
+@snapend
 
+@code[ruby zoom-19](chef/cookbooks/uninstall-git/recipes/default.rb)
+
+@snap[south span-100]
 @[1](Include default recipe from chocolatey cookbook)
 @[3-5](Use chocolatey_package)
+@snapend
 
 +++?color=beige
 @title[Demo - chocolatey_package]
 
-## Demo
+# Demo
 
-### Use chocolatey_package to uninstall git
+#### Use chocolatey_package to uninstall git
 
 ---?code=chef/cookbooks/chocolatey-server/recipes/default.rb&title=Install and configure chocolatey.server
 @title[default.rb]
 
-@[19](Include default recipe from chocolatey cookbook)
-@[36-39](Create new directory)
-@[41-43](Install chocolatey.server package)
-@[49-52](Set Chocolatey Configuration)
+@[19, zoom-20](Include default recipe from chocolatey cookbook)
+@[36-39, zoom-12](Create new directory)
+@[41-43, zoom-16](Install chocolatey.server package)
+@[49-52, zoom-18](Set Chocolatey Configuration)
 @[68-73](Install Windows Features)
-@[151-158](Configure Chocolatey Sources)
+@[151-158, zoom-12](Configure Chocolatey Sources)
 
 +++o?color=beige
 @title[Demo - Install and configure chocolatey.server]
 
-## Demo
+# Demo
 
-### Install and configure chocolatey.server
+#### Install and configure chocolatey.server
 
 +++
 
-### Other repository servers are available
+@snap[north span-100]
+#### Other repository servers are available...
+@snapend
 
-* Artifactory
-* Sonatype Nexus
-* ProGet
+* ### Artifactory
+* ### Sonatype Nexus
+* ### ProGet
 
 ---?color=#7FDBFF
 @title[Who Am I? - Gary Ewan Park]
 
 @snap[north-west]
-Who am I?
+#### Who am I?
 @snapend
 
 @snap[west span-65]
@@ -510,7 +565,7 @@ Gary Ewan Park
 
 @snapend
 
-@snap[south-west bio-contact]
+@snap[south-west bio-contact span-100]
 @fa[twitter twitter-blue]&nbsp;&nbsp;gep13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 @fa[github text-black]&nbsp;&nbsp;github.com/gep13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 @fa[home text-blue]&nbsp;&nbsp;gep13.co.uk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -537,7 +592,9 @@ Web: https://www.gep13.co.uk
 
 ## Learn More
 
+@ul[text-08](false)
 * Sales - [https://chocolatey.org/contact](https://chocolatey.org/contact) (choose Sales)
 * Chocolatey Documentation - [https://chocolatey.org/docs](https://chocolatey.org/docs)
 * Source Code - [https://github.com/chocolatey/choco](https://github.com/chocolatey/choco)
 * Learning Resources - [https://chocolatey.org/docs/resources](https://chocolatey.org/docs/resources)
+@ulend
