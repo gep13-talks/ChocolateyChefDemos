@@ -13,7 +13,8 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : simple
+theme : template
+theme-headline : [ "Raleway", "#111111", "none"]
 
 #
 # Theme-Override Setting
