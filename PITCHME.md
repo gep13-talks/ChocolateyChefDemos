@@ -35,7 +35,7 @@
 @snapend
 
 ---?color=linear-gradient(90deg, #5289F7 25%, white 25%)
-@title[Immutable Infrastructure]
+@title[Chocolatey]
 
 @snap[north-east text-05 text-gray]
 Q. What is Chocolately?
